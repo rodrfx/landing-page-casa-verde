@@ -1,4 +1,4 @@
-import logo from './assets/logo.svg';
+import { Header } from './components/Header';
 import { GlobalStyle } from './styles/globalStyle';
 import * as S from './styles/stylesAPP';
 
@@ -6,8 +6,7 @@ function App() {
 	return (
 		<S.Container>
 			<S.Content>
-				<img src={logo} alt="" />
-				<h1>Iniciando o projeto...</h1>
+				<Header />
 			</S.Content>
 
 			<GlobalStyle />

@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
     :root {
     --background: #FFFFFF;
+    --text: #202020;
     }
     
     * {

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import vector from '../assets/vector.png';
 
-export const Container = styled.div`
+export const Container = styled.main`
 	max-width: 1920px;
 	height: 100vh;
 	margin: 0 auto;
