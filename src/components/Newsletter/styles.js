@@ -23,8 +23,12 @@ export const Container = styled.div`
 		opacity: 0.5;
 	}
 
+	form {
+		display: flex;
+	}
+
 	input {
-		width: 24.4rem;
+		flex: 2;
 		height: 4.69rem;
 		opacity: 0.6;
 		border: 0;
@@ -40,9 +44,9 @@ export const Container = styled.div`
 	}
 
 	button {
+		flex: 1;
 		color: var(--white);
 		background-color: var(--yellow);
-		width: 12.13rem;
 		height: 4.69rem;
 		border: 0;
 		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
