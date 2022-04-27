@@ -16,3 +16,12 @@ export const Content = styled.div`
 	margin: 0 auto;
 	height: 100%;
 `;
+
+export const Flex = styled.div`
+	display: flex;
+
+	img {
+		margin-top: 3rem;
+		height: 50rem;
+	}
+`;
