@@ -11,7 +11,12 @@ export function Newsletter() {
 				assine nossa newsletter para saber das novidades da marca.
 			</p>
 			<form action="/">
-				<input type="email" placeholder="Insira seu e-mail" required />
+				<input
+					type="email"
+					placeholder="Insira seu e-mail"
+					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+					required
+				/>
 				<button type="submit">Assinar newsletter</button>
 			</form>
 		</S.Container>
